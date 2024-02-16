@@ -29,42 +29,47 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<h1>Project name News Article Website</h1>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+for Larger Screen
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Extra Small (Size < 576px) and Small (Size >= 576px)](https://res.cloudinary.com/dsfgj9nwd/image/upload/v1708064093/smaller-screen_atisye.jpg)
+- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://res.cloudinary.com/dsfgj9nwd/image/upload/v1708063799/larger_screen_g6fulu.jpg)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<h4>Functionality</h4> <br>
+Your application should have the following features:
+Home Screen: This should display a list of articles in a format similar to traditional newspapers. Consider using columns, headlines, subheadings, and thumbnail images.
+Article Detail Screen: Upon clicking an article on the Home Screen, the app should navigate to a detailed article view. This screen should display the article's title, content, author, and publication date.
+Styling: Use Bootstrap components and custom styling to achieve a look reminiscent of a classic newspaper. Pay attention to typography, spacing, and layout.
+Navigation: Implement routing between the Home Screen and the Article Detail Screen using React Router.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Important Note <br>
 
-## Learn More
+use this for date and time <br> - const currentDate = new Date().toLocaleDateString(); <br> - const currentTime = new Date().toLocaleTimeString();
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Resources
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+colors <br>
+#dbdbd9 <br>
+gray <br>
+black <br>
+#fff <br>
 
-### Code Splitting
+images urls <br>
+https://static.toiimg.com/thumb/msid-107727789,imgsize-928880,width-100,resizemode-4/107727789.jpg
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+https://static.toiimg.com/thumb/msid-107730093,imgsize-112804,width-100,resizemode-4/107730093.jpg
 
-### Analyzing the Bundle Size
+https://static.toiimg.com/thumb/msid-107727893,imgsize-71500,width-100,resizemode-4/107727893.jpg
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+https://static.toiimg.com/thumb/msid-107717184,imgsize-852958,width-100,resizemode-4/107717184.jpg
 
-### Making a Progressive Web App
+https://static.toiimg.com/thumb/width-100,imgsize-59400,msid-107730795/107730795.jpg
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Font family <br>
 
-### Advanced Configuration
+Times Roman
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h4>Third Party packages</h4>
+<p>react-router-dom</p>
+<p>bootstrap</p>

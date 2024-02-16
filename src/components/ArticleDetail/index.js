@@ -1,4 +1,6 @@
 import { Component } from "react";
+import "./index.css";
+import NotFound from "../NotFound";
 
 const articles = [
   {
@@ -152,15 +154,18 @@ const articles = [
 
 class ArticleDetail extends Component {
   render() {
-    console.log(this.props);
     const { match } = this.props;
     const { params } = match;
     const { id } = params;
     const article = articles.find((news) => news.id === id);
 
+    if (!article) {
+      return <NotFound />;
+    }
+
     const { imageUrl, title, content, summary, url, author } = article;
     return (
-      <div>
+      <div className="main-container detail-container">
         <h1>{title}</h1>
         <img src={imageUrl} alt={title} className="w-100" />
         <p>{content}</p>

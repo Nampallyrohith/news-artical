@@ -12,15 +12,12 @@ specifiers:
   eslint-plugin-prettier: 3.3.1
   history: 5.0.0
   husky: 4.3.8
-  js-cookie: 3.0.0
   lint-staged: 10.5.4
   msw: 0.33.0
   npm-run-all: 4.1.5
   prettier: 2.2.1
   react: 17.0.1
   react-dom: 17.0.1
-  react-icons: 4.2.0
-  react-loader-spinner: 4.0.0
   react-router-dom: 5.2.0
   react-scripts: 4.0.3
 
@@ -32,12 +29,9 @@ dependencies:
   chalk: 4.1.0
   date-fns: 3.3.1
   history: 5.0.0
-  js-cookie: 3.0.0
   msw: 0.33.0
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
-  react-icons: 4.2.0_react@17.0.1
-  react-loader-spinner: 4.0.0_react-dom@17.0.1+react@17.0.1
   react-router-dom: 5.2.0_react@17.0.1
 
 devDependencies:
@@ -8955,11 +8949,6 @@ packages:
       - utf-8-validate
     dev: true
 
-  /js-cookie/3.0.0:
-    resolution: {integrity: sha512-oUbbplKuH07/XX2YD2+Q+GMiPpnVXaRz8npE7suhBH9QEkJe2W7mQ6rwuMXHue3fpfcftQwzgyvGzIHyfCSngQ==}
-    engines: {node: '>=12'}
-    dev: false
-
   /js-levenshtein/1.1.6:
     resolution: {integrity: sha512-X2BB11YZtrRqY4EnQcLX5Rh373zbK4alC1FW7D7MBhL2gtcC17cTnr6DmfHZeS0s2rTHjUTMMHfG7gO8SSdw+g==}
     engines: {node: '>=0.10.0'}
@@ -11475,14 +11464,6 @@ packages:
     resolution: {integrity: sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==}
     dev: true
 
-  /react-icons/4.2.0_react@17.0.1:
-    resolution: {integrity: sha512-rmzEDFt+AVXRzD7zDE21gcxyBizD/3NqjbX6cmViAgdqfJ2UiLer8927/QhhrXQV7dEj/1EGuOTPp7JnLYVJKQ==}
-    peerDependencies:
-      react: '*'
-    dependencies:
-      react: 17.0.1
-    dev: false
-
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
@@ -11491,17 +11472,6 @@ packages:
 
   /react-is/18.2.0:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
-    dev: false
-
-  /react-loader-spinner/4.0.0_react-dom@17.0.1+react@17.0.1:
-    resolution: {integrity: sha512-RU2vpEej6G4ECei0h3q6bgLU10of9Lw5O+4AwF/mtkrX5oY20Sh/AxoPJ7etbrs/7Q3u4jN5qwCwGLRKCHpk6g==}
-    peerDependencies:
-      react: '*'
-      react-dom: '*'
-    dependencies:
-      prop-types: 15.8.1
-      react: 17.0.1
-      react-dom: 17.0.1_react@17.0.1
     dev: false
 
   /react-refresh/0.8.3:

@@ -157,8 +157,8 @@ class Home extends Component {
 
   render() {
     return (
-      <div>
-        <h1>Latest News</h1>
+      <div className="main-container">
+        <h1 className="latest-heading">Latest News</h1>
         <ul>
           {articles.map((eachItem) => (
             <ArticleItem key={eachItem.id} eachItem={eachItem} />
